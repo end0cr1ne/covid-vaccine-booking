@@ -22,7 +22,10 @@ def main():
 
     try:
         base_request_header = {
-            'User-Agent': UserAgent().random,
+            'User-Agent': 'Mozilla/5.0 (Linux; Android 6.0.1; Moto G (4)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Mobile Safari/537.36',
+            'content-type': 'application/json',
+            'origin': 'https://selfregistration.cowin.gov.in',
+            'authority': 'cdn-api.co-vin.in',
         }
 
         if args.token:
